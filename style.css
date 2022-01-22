@@ -1,0 +1,39 @@
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #0a32e7;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 20px;
+  cursor: pointer;
+  background-color: rgb(218, 18, 18);
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+  background-color: #0a18e0;
+}
+
+.autocomplete-active {
+  background-color: #09df09 !important;
+  color: #ffffff;
+}
+
+a.page-link {
+  color: #01090c;
+}
+
+li.page-item.active a.page-link {
+  background-color: #1892b8;
+  border-color: #189dc5;
+}
+
+a.page-link:hover {
+  color: #157e9e;
+}
